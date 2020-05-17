@@ -21,9 +21,6 @@ body {
     width: 100%;
 }
 
-h1{
-	color:#851414;
-}
 
 ul{
 	list-style: none;
@@ -48,6 +45,12 @@ nav{
 
 nav ul{
 	margin: 0;
+}
+
+.flex-img-85{
+  display: block;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .flex-img{
@@ -165,6 +168,10 @@ nav ul{
      padding-top:48px;   
         
     }
+
+.title-pages{
+    padding-bottom: 24px;
+}
 
 
 /* desktop nav*/
@@ -577,7 +584,7 @@ h3 a{
 .chat{
 	margin: 32px 32px 0px 32px;
 	padding: 80px;
-	background-color: #EFEFEF;
+	background-color: #f8f8f8;
 	text-align: center;
     border-radius: 16px;
 }
