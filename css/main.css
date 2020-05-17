@@ -21,6 +21,10 @@ body {
     width: 100%;
 }
 
+h1{
+	color:#851414;
+}
+
 ul{
 	list-style: none;
 	margin: 0;
@@ -66,7 +70,7 @@ nav ul{
 }
 
 .mobile-nav li a:hover{
-	color: #2A51E0;
+	color: #851414;
 }
 
 .desktop-nav{
@@ -129,7 +133,7 @@ nav ul{
 }
 
 .social li a:hover i{
-	color: #2A51E0;
+	color: #851414;
 }
 
 
@@ -207,7 +211,7 @@ nav ul{
 h3 a{
 
 	text-decoration: none;
-	color: #2A51E0;
+	color: #851414;
 }
 
 .chat h3 a{
@@ -215,7 +219,7 @@ h3 a{
 }
 
 .chat h3 a:hover {
-	color: #2A51E0;
+	color: #851414;
 }
 
 
@@ -223,17 +227,20 @@ h3 a{
 	margin-top: 16px;
 }
 
+.self-top{
+    display:none;
+}
 
+.self-top-mobile{
+    display: inline;
+    }
 
 .self-img{
-	background-color: #FAEEE2;
-	margin-left: 32px;
-	max-height: 275px;
+	margin-top:24px;
 }
 
 .self-img img{
-	max-height: 275px;
-	float: right;
+	width:100%;
 }
 
 .sixteen-nine {
@@ -260,29 +267,35 @@ h3 a{
 	nav{
 		padding-bottom: 32px;
 	}
+    
+    .self-top{
+    display: inline;
+    }
+    
+    .self-top-mobile{
+    display: none;
+    }
+    
+    .self-img{
+	margin-top:-24px;
+}
 
 	.intro{
 		position: absolute;
-		float: left;
-		left: 0;
 		z-index: 100;
-		height: 440px;
+		height: 320px;
 		display: block;
-	}
-
-	.content-text{
-		height: 440px;
-		width: 440px;
-		display: table-cell;
+        padding-left: 120px;
+        display: table-cell;
 		vertical-align: middle;
 	}
 
-	.self-img{
-		width: 70%;
-		float: right;
-		left: 0;
-		margin-left: 0;
-		max-height: 440px;
+	.content-text{
+		height: 330px;
+		width: 440px;
+        padding-top: 62px;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 	br{
@@ -294,21 +307,42 @@ h3 a{
 	}
 
 	.self-img img{
-		max-height: 440px;
+		width:100%;
 	}
 }
 
 @media only screen and (min-width: 1150px) {
-.content-text{
-		width: 840px;
+	.intro{
+		position: absolute;
+		z-index: 100;
+		height: 525px;
+		display: block;
+        padding-left: 220px;
+        display: table-cell;
+		vertical-align: middle;
 	}
 
+	.content-text{
+		height: 525px;
+		width: 440px;
+        padding-top: 90px;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 /* mobile work */
 
+.p-top{
+     padding-top:48px;   
+        
+    }
+    
+    
 .work{
 	padding: 0px 32px 0px 32px;
+    max-width: 1360px; 
+	margin: 0 auto !important; 
+	float: none !important;
 }
 
 .project-img{
@@ -343,9 +377,7 @@ h3 a{
 
 
 @media only screen and (min-width: 840px) {
-	.work{
-		margin-top: 440px;
-	}
+
 
 	.project-img{
 		width: 50%;
@@ -464,14 +496,11 @@ h3 a{
 }
 
 .self-img-2{
-	background-color: #E5F3FC;
-	margin-left: 0px;
 	max-height: 275px;
 }
 
 .self-img-2 img{
 	max-height: 275px;
-	float: left;
 }
 
 .about .sixteen-nine {
@@ -496,11 +525,7 @@ h3 a{
 @media only screen and (min-width: 840px) {
 
 	.self-img-2{
-		background-color: #F3F9FD;
 		max-height: 440px;
-		float: left;
-		left: 0;
-		width: 70%;
 		position: absolute;
 	}
 
@@ -540,9 +565,14 @@ h3 a{
 .chat{
 	margin: 32px 32px 0px 32px;
 	padding: 80px;
-	background-color: #FAEEE2;
+	background-color: #EFEFEF;
 	text-align: center;
+    border-radius: 16px;
 }
+    
+.chat h2{
+    color: #851414;    
+    }    
 
 .chat h2:after {
 	content:"";
@@ -578,7 +608,7 @@ h3 a{
 }
 
 .chat .social-footer li a:hover i{
-	color: #2A51E0;
+	color: #851414;
 }
 
 
@@ -695,7 +725,7 @@ h3 a{
 /*hover effect*/
 
 .menu--adsila a {
-	color: #2A51E0;
+	color: #851414;
 }
 
 .menu--adsila .menu__item-name {
@@ -745,7 +775,7 @@ h3 a{
 
 .menu--adsila .menu__item:nth-child(odd) .menu__item-name::before,
 .menu--adsila .menu__item:nth-child(odd) .menu__item-label::before {
-	background:#2A51E0;
+	background:#851414;
 }
 
 
@@ -753,7 +783,7 @@ h3 a{
 
 .menu--adsila .menu__item:nth-child(odd):hover,
 .menu--adsila .menu__item:nth-child(odd):focus {
-	color: #2A51E0;
+	color: #851414;
 }
 
 .menu--adsila .menu__item:hover .menu__item-name::before,
