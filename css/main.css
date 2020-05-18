@@ -604,12 +604,14 @@ h3 a{
 }
     
 .chat-option2{
-    background-color: #851414;
-    text-align: center;
-    color: white;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+   background-color: #851414;
+   text-align: center;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 300px; 
+   padding:32px;    
 }
 
 .chat-option2 p{
@@ -661,6 +663,13 @@ h3 a{
 	color: #851414;
 }
 
+@media only screen and (min-width: 440px){
+    
+    .chat-option2{
+   height: auto; 
+}
+    
+}
 
 
 /* desktop chat*/
@@ -680,6 +689,7 @@ h3 a{
 	.chat h2:after {
 		display: none;
 	}	
+
 
 	.chat .social-footer span{
 	font-size: 20px;
