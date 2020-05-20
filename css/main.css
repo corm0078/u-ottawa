@@ -648,6 +648,7 @@ h3 a{
 
 .chat ul{
 	text-align: center;
+    width: 60%;
 	margin: 0 auto;
 }
 
