@@ -165,7 +165,7 @@ nav ul{
 .img-homepage-mobile{
     width:100%;
     z-index: 10000;
-    display: inline-block;
+    display: inline;
     } 
 
 .img-homepage-desktop{
@@ -213,7 +213,7 @@ border: none;
     .img-homepage-desktop{
         width:100%;
         z-index: 10000;
-        display: inline-block;
+        display: inline;
     } 
     
     .desktop{
