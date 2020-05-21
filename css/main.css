@@ -674,6 +674,15 @@ h3 a{
 /* desktop chat*/
 
 @media only screen and (min-width: 840px) {
+    .intro-img{
+	margin: 48px 32px 32px 32px;
+    display: inline-block;
+}
+    
+    .intro-img-mobile{
+        display: none;
+    }
+    
 	.chat{
 		position: relative;
 		margin-top: 548px;
@@ -761,8 +770,13 @@ h3 a{
 	text-decoration: none;
 }
 
-.intro-img{
+.intro-img-mobile{
 	margin: 48px 32px 32px 32px;
+    display: inline-block;
+}
+
+.intro-img{
+    display: none;
 }
 
 .padding{
